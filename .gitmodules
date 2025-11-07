@@ -1,3 +1,9 @@
 [submodule "WeaNet"]
 	path = WeaNet
 	url = https://github.com/parsapournabi/WeaNet.git
+[submodule "WeaChart"]
+	path = WeaChart
+	url = https://github.com/parsapournabi/WeaChart.git
+[submodule "WeaModel"]
+	path = WeaModel
+	url = https://github.com/parsapournabi/WeaModel.git
