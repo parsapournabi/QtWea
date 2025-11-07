@@ -1,0 +1,3 @@
+[submodule "WeaNet"]
+	path = WeaNet
+	url = https://github.com/parsapournabi/WeaNet.git
