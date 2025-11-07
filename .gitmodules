@@ -7,3 +7,6 @@
 [submodule "WeaModel"]
 	path = WeaModel
 	url = https://github.com/parsapournabi/WeaModel.git
+[submodule "WeaShader"]
+	path = WeaShader
+	url = https://github.com/parsapournabi/WeaShader.git
