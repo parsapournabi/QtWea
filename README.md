@@ -11,3 +11,4 @@ QtWea is a framework to make Qt components usage,  optimizer, easier and more fl
 - [ ] Modules should be clean and complete documentations.
 - [ ] Adding application testers.
 - [ ] Adding new **Core**, **Quick** modules.
+- [ ] Creating framework **cross platform smart installer** using shell.
