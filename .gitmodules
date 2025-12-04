@@ -10,3 +10,6 @@
 [submodule "WeaShader"]
 	path = WeaShader
 	url = https://github.com/parsapournabi/WeaShader.git
+[submodule "WeaCore"]
+	path = WeaCore
+	url = https://github.com/parsapournabi/WeaCore.git
