@@ -1,4 +1,4 @@
-Chart/docs/** linguist-documentation
-Chart/docs/** linguist-vendored
-Chart/docs/** linguist-generated
+*docs/** linguist-documentation
+*docs/** linguist-vendored
+*docs/** linguist-generated
 
