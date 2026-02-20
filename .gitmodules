@@ -13,3 +13,6 @@
 [submodule "WeaCore"]
 	path = WeaCore
 	url = https://github.com/parsapournabi/WeaCore.git
+[submodule "WeaQuick"]
+	path = WeaQuick
+	url = https://github.com/parsapournabi/WeaQuick.git
