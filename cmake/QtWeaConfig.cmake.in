@@ -1,0 +1,19 @@
+
+@PACKAGE_INIT@
+
+set(QtWea_KNOWN_COMPONENTS
+    WeaCore
+    WeaQuick
+    # ...
+)
+
+if(QtWea_FIND_COMPONENTS)
+    foreach(comp IN LISTS QtWea_FIND_COMPONENTS)
+        list(FIND QtWea_KNOWN_COMPONENTS "${comp}" _index)
+        if(_index EQUAL -1)
+            message(FATAL_ERROR "QtWea: Unknown component '${comp}'. Known components: ${QtWea_KNOWN_COMPONENTS}")
+        endif()
+    endforeach()
+endif()
+
+include("${CMAKE_CURRENT_LIST_DIR}/QtWeaTargets.cmake")
